@@ -1,19 +1,13 @@
 	
 
-body { padding-top: 70px; }
+body { padding-top: 50px; }
 
 
 .jumbotron {
-  padding-top: 90px;
-  min-height: 600px;
-  margin-bottom: 0;
-  background-image: url('');
+  padding-top: 10px;
+  min-height: 400px;
   background-size: cover;
   background-attachment: fixed;
-}
-
-.jumbotron .form-group {
-  line-height: 1em;
 }
 
 .jumbotron label {
@@ -28,13 +22,8 @@ h2 {
 .jumbotron h1 {
   font-family: 'Libre Baskerville', serif;
   color: Black;
-  margin-bottom: 1em;
 }
 
-
-.jumbotron .form-group {
-  line-height: 1em;
-}
 
 .jumbotron label {
   color: black;
@@ -52,7 +41,7 @@ h2 {
 }
 
 a:hover { 
-    background-color: red;
+    color: red;
 }
 
 ul {
@@ -90,12 +79,12 @@ ul li ul li:hover {background: #;}
 .btn-twitter {
   background-color: #00acee;
   border-color: #009ad5;
-  color: white;
+  color: White;
 }
 
 .btn-facebook {
   background-color: #4868ac;
   border-color: #314776;
-  color: white;
+  color: White;
 }
 
