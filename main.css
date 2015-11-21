@@ -1,34 +1,101 @@
 	
 
-body {
-	padding-top: 5px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff;
+body { padding-top: 70px; }
+
+
+.jumbotron {
+  padding-top: 90px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url('');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron .form-group {
+  line-height: 1em;
+}
+
+.jumbotron label {
+  color: Black;
+}
+
+h2 {
+  margin-bottom: 1.5em;
 }
 
 
+.jumbotron h1 {
+  font-family: 'Libre Baskerville', serif;
+  color: Black;
+  margin-bottom: 1em;
+}
 
-#social-buttons button {
 
-color: white;
+.jumbotron .form-group {
+  line-height: 1em;
+}
 
+.jumbotron label {
+  color: black;
+}
+
+.jumbotron img {
+  margin-top: 50px;
+}
+h2 {
+  margin-bottom: 1.5em;
+}
+
+.form-inline input[name='email'] {
+  width: 80%;
+}
+
+a:hover { 
+    background-color: red;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #;}
+ul li:hover ul {display: block;}
+ul li ul {
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+ul li ul li { 
+    background: #; 
+    display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #;}
+
+
+
+#video-title {
+   background-color: rgba(32, 35, 41, 0.9);
+  color: #ddd;
+  padding-bottom: 30px;
+}
+
+#social-buttons {
+  margin-top: 50px;
 }
 
 .btn-twitter {
-	background-color: #00acee;
-	border-color: #009ad5;
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
 }
 
 .btn-facebook {
-	background-color: #4868ac;
-	border-color: #314776;
-}
-
-.btn-pinterest {
-	background-color: #b62f26;
-	border-color: #b62f26;
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
 }
 

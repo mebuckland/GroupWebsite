@@ -9,78 +9,81 @@
 </head>
 
 <body>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-  
-    <div class="collapse navbar-collapse" id="nav">
-      <ul class="nav navbar-nav navbar-center">
 
-        <li class="active"><a href="#"> Home <span class="sr-only">(current)</span></a></li>
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+       <li class="active"><a href="#"> Home <span class="sr-only">(current)</span></a>
+
+      </li>
         <li><a href="https://www.bhf.org.uk">British Heart Foundation</a></li>
-        <li><a href="https://www.bhf.org.uk/get-involved/donate-form">Donate</a></li>
+        <li><a href="#reaction">Learn the Skills</a></li>
+   
 
         <div class="navbar-header">
      <a class="navbar-brand" href="#">
         <img alt="Brand" src="http://bestanimations.com/Signs&Shapes/Hearts/heart-animation3.gif" height="25" width="25">
       </a>
     </div>
-    <li><a href="https://www.bhf.org.uk/research">Research</a></li>
+    <li><a href="#vinnie">Video</a></li>
+
 
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Learn More <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="https://www.bhf.org.uk/community">Community</a></li>
+            <li><a href="https://www.bhf.org.uk/research">Research</a></li>
             <li><a href="https://www.bhf.org.uk/get-involved">Get Involved</a></li>
-            <li><a href="#">Something else here</a></li>
+            <li><a href="https://www.youtube.com/channel/UC9J8xYJ7GyKl1VU1RMRXGIw">More Videos</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
+            <li><a href="https://www.bhf.org.uk/community">Community</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a href="https://www.bhf.org.uk/get-involved/donate-form">Donate</a></li>
           </ul>
         </li>
       </ul>
-      <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search">
-        </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-     
-          </ul>
-        </li>
-      </ul>
+      
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 
-	<div class="container" id="page-title">
-	<!-- page content goes here -->
-		<div class="col-sm-8">
-			<h1>Call Push Rescue</h1>
+
+  <div class='jumbotron' "text-center">
+	<div class="container text-center">
+		
+          <h1>Call Push Rescue</h1>
 			<h2>FIGHT FOR EVERY HEARTBEAT</h2>
-		</div>
-	</div>
 
-	<div class="container text-center" id="main-logo">
-		<img src='https://www.redpathbruce.co.uk/userfiles/image/british-heart-foundation.jpg' class="center-block img-responsive" alt="Responsive image"
-		</div>
+        </div>
+      
+      <div class="container text-center" id="main-logo">
+		<img src='http://www.edgarswater.co.uk/files/British_Heart_Foundation_1363709932.png' class="center-block img-responsive">
+		<form role='form' method='post'><input type='hidden' name='form-name' value='form 1' />
+    	 	<label for="email">Receive updates</label>
+     	 	<input type="text" name="email" placeholder="Enter your email">
+     	 	<button type="submit" class='btn btn-success'>Send</button>
+    	</form>
+    </div>
+</div>
 
-<div class='jumbotron'>
+           
 
-    <form role='form'>
-      <label for="email">Subscribe for more information</label>
-      <input type="text" name="email" >
-      <button type="submit" class="btn btn-success">Send</button>
-    </form>
-  </div>
+  <div id="reaction" class="text-center">
+  <div class="container">
+    <h2><small>Cardiopulmonary resuscitation</small><br/>Learn the Skills</h2>
 
-
-  <div id="reaction">
-  <div class="container text-center">
-    <h2><small>Cardiopulmonary resuscitation</small><br />Learn the Skills</h2>
-
-	
-	<div class="container" id="main-text">
 		<div class="row">
 			<div class="col-sm-4">
 				<h3>CALL 999 immediately</h3>
@@ -103,18 +106,19 @@
 		</div>
 	</div>
 
-	 <div id="video-title">
-<br>
+
+	 <div id="video-title" class="text-center">
+	 <div class="container">
+
    <h2><small>And if you don't like the "Kissing..."</small><br/>Watch the video for hands-only CPR!</h2>
+ 
 
    <div class="container text-center" id="vinnie">
    <br>
 		<iframe width="660" height="415" src="https://www.youtube.com/embed/ILxjxfB4zNk" frameborder="0" allowfullscreen></iframe>
-		</div></br>
-
 		</div>
 
-
+		</div>
 
     
 
@@ -125,6 +129,10 @@
   </div>
 
 </div>
+
+ <script src="https://code.jquery.com/jquery.js"></script>
+  <script type="text/javascript" src="dist/js/bootstrap.js"></script>
+
 
 </body>
 </html>
