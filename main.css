@@ -5,7 +5,9 @@ body { padding-top: 50px; }
 
 .jumbotron {
   padding-top: 10px;
-  min-height: 400px;
+  min-height: 600px;
+  margin-bottom: 0;
+  background-image: url('http://s22.postimg.org/klgd0dvk1/heart4.png');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -30,7 +32,7 @@ h2 {
 }
 
 .jumbotron img {
-  margin-top: 50px;
+  margin-top: 0px;
 }
 h2 {
   margin-bottom: 1.5em;
