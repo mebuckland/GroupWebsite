@@ -5,12 +5,14 @@ body { padding-top: 50px; }
 
 .jumbotron {
   padding-top: 10px;
-  min-height: 600px;
+  min-height: 500px;
   margin-bottom: 0;
   background-image: url('http://s22.postimg.org/klgd0dvk1/heart4.png');
-  background-size: cover;
+  background-size: 100% 90%;
+  background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
 
 .jumbotron label {
   color: Black;
@@ -22,7 +24,6 @@ h2 {
 
 
 .jumbotron h1 {
-  font-family: 'Libre Baskerville', serif;
   color: Black;
 }
 
@@ -34,6 +35,11 @@ h2 {
 .jumbotron img {
   margin-top: 0px;
 }
+
+h3 {
+  color: rgb(255,0,0);
+}
+
 h2 {
   margin-bottom: 1.5em;
 }
