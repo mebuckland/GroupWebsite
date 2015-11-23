@@ -48,6 +48,10 @@ h2 {
   width: 80%;
 }
 
+.fixed-image-height {
+  height: 130px;
+}
+
 a:hover { 
     color: red;
 }
